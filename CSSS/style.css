@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content:center; 
+    background-color: #f1f1f1;
+    line-height: 30px;
+     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/pic1.jpg');
+    background-size: cover;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+
+}
+
+.text{
+    font-size: 25px;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    text-align: justify;
+    margin-bottom: 40px;
+    animation: abcd 18s infinite;
+}
+.inf{
+    font size: 25px;
+}
+@keyframes abcd{
+    
+    0%{margin-left: 30px}
+     10%{margin-left: 70px}
+     20%{margin-right: 30px}
+     30%{margin-right: 70px}
+     40%{margin-left: 30px}
+     50%{margin-left: 70px}
+     60%{margin-right: 30px}
+     70%{margin-right: 70px}
+     80%{margin-left: 30px}
+     90%{margin-left: 70px}
+     100%{margin-right: 30px}
+     
+}
+.another{
+    margin-top: 20px;
+    margin-left: :10px;
+    font-weight: 40px;
+}

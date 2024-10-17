@@ -1,0 +1,149 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box; 
+}
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: white;
+	font-family: 'Flamenco', cursive;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('../images/can.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 180px;
+	width: auto;
+	float: left;
+	margin-top: 10px;
+	margin-left: 0px;
+	
+}
+
+.main-nav{
+	float: right;
+	margin-top: 40px;
+}
+
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+.main-nav li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100%;
+
+}
+.main-nav li a:hover{
+	border-bottom: 2px solid #bf55ec;
+}
+
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	top: 45%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+
+
+}
+.another-content{
+	width:180px;
+	position: absolute;
+	top: 60%;
+    margin-left:40px;  
+    
+    text-transform:uppercase;
+    font-weight: 100%;
+    font-size: 90%;
+    
+    border: 1px solid #bf55ec;
+}
+
+
+h1{
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+
+}
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s,color0.2s;
+}
+.btn-1{
+	background-color: transparent;
+	color: #fff;
+	margin-right: 15px;
+	border: 1px solid #fff;
+}
+.btn-1:hover{
+	background-color: #bf55ec;
+}
+.btn-2{
+	background-color: transparent;
+	color:#fff;
+	border: 1px solid #fff;
+}.btn-2:hover{
+	background-color: #bf55ec;
+}
+.colorchange{
+	animation: colorchangec 1s infinite;
+}
+@keyframes colorchangec{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: #bf55ec;}
+	100%{color: #bf55ec;}
+}
+.colorchange1{
+	animation: colorchanged 1s infinite;
+}
+@keyframes colorchanged{
+	0%{color: red;}
+	25%{color: white;}
+	50%{color: #bf55ec;}
+	100%{color: #bf55ec;}
+}.signing{
+width: 1080px;
+	font-size: 35px;
+	position: absolute;
+	top:35%;
+	left: 40%
+}
+.box{
+	width: 1080px;
+	font-size: 35px;
+	position: absolute;
+	top:40%;
+	left:40%;
+	
+}
+.m1{
+	width: 1080px;
+	background-color: #bf55ec;
+	display: inline;
+}
